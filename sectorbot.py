@@ -4,6 +4,7 @@ import sys, traceback
 import logging
 import os
 
+logging.basicConfig(level='INFO')
 bot = commands.Bot(command_prefix=";")
 
 @bot.listen()
