@@ -3,7 +3,6 @@ from discord.ext import commands
 import os
 import sys, traceback
 
-logging.basicConfig(level='INFO')
 bot = commands.Bot(command_prefix=";")
 # cog importing
 cogs = ["cog one", "cog two"]
