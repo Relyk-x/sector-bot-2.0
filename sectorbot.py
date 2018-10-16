@@ -14,4 +14,4 @@ async def on_ready():
 async def hi(ctx):
     await ctx.send('hello')
 
-bot.run(os.environ['token'], bot=True, reconnect=True)
+bot.run(os.environ['token'])
