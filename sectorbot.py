@@ -8,4 +8,4 @@ bot = commands.Bot(command_prefix=";")
 async def on_ready():
 	print("Ready for use!")
 
-client.run(os.getenv('token'))
+bot.run(os.getenv('token'))
