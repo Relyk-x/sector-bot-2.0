@@ -8,8 +8,8 @@ bot = commands.Bot(command_prefix=";")
 async def on_ready():
     print("Ready for use!")
 
-@bot.listen()
-async def hi (ctx):
-    await ctx.send ("Hello") 
+@bot.command()
+async def hi(ctx):
+    await ctx.send('hello')
 
 bot.run(os.environ['token'])
