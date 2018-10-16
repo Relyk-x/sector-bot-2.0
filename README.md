@@ -1,1 +1,2 @@
-Hello this is 2.0
+sector-bot-2.0
+Discord bot.
